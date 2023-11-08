@@ -49,9 +49,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     .image {
       background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
       background-color: rgb(255 255 255 / 0.3);
-      
-      opacity: 0.9;    
-       
+      opacity: 0.9;     
     }
     .card-img-top {
      
