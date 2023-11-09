@@ -11,7 +11,7 @@ if ($_POST) {
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    $stmt = $pdo->prepare("SELECT * FROM users WHERE email=:email");
+    $stmt = $pdo->prepare("SELECT * FROM users WHERE role=1 AND email=:email");
 
     $stmt->bindValue(':email',$email);
     $stmt->execute();
